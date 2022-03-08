@@ -1,0 +1,29 @@
+Package: NZMastersample
+Title: Generate sample designs based on a master sample for New Zealand
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Ollie",
+           family = "Gansell",
+           role = c("aut", "cre"),
+           email = "ogansell@doc.govt.nz",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: NZMastersample allows the user to generate sample locations for monitoring designs. The sample locations are drawn from a master sample of New Zealand. Sample locations can be generated for linear or areal (continuous) resources. The benefit of deriving sample locations from a master sample is the ability to coordinate monitoring efforts within/between agencies and maintain robust design in the midst of changing sample frame boundaries, changes in sample size etc.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to
+    pick a license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    raster,
+    sp,
+    rgeos,
+    Rcpp,
+    rgdal,
+    dplyr,
+    data.table
+LinkingTo: Rcpp
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

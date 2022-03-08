@@ -1,0 +1,21 @@
+---
+title: "NZMastersample"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{NZMastersample}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(NZMastersample)
+```
+
+This is my first attempt to build a vignette but I'm gonna do it...
